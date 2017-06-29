@@ -7,6 +7,17 @@ $(document).ready(function() {
     var email = $('#email').val();
     $('.modal-body').text("Hi, " + name + " thank you for signing up! We will send an email to " + email + "shortly");
   });
-  $()
+ 
+  $(".socialIcon").hover(function(){
+    $(this).find('img').animate({
+        height: "25px",
+        width: "25px"
+    });
+  }, function(){
+    $(this).find('img').animate({
+        height: "30px",
+        width: "30px"
+    })
+  });
 
 });

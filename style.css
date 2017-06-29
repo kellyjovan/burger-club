@@ -144,3 +144,7 @@ p {
     color: white;
     font-family: 'Rubik', sans-serif;
 }
+
+.locationData p{
+    color: #000;
+}

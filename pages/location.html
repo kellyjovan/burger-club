@@ -46,17 +46,17 @@
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
-    <div class="col-sm-3" id="location-list">
+    <div class="locationData col-sm-3" id="location-list">
       <p>Address: 32-02 30th Ave, Astoria, NY 11102 </p>
       <p>Hours:11:30AM–11:30PM</p>
       <p>Phone: (718) 777-7788</p>
       <hr>
+      <p>Address: 85 Broad St, New York, New York</p>
     </div>
     
     <!--<div class="col-sm-9">-->
       <div id="map"></div>
     <!--</div>-->
-    
     
     
     <script>
@@ -69,6 +69,22 @@
         });
         var marker = new google.maps.Marker({
           position: uluru,
+          icon: {
+            url: "../images/burger-outline-filled.png",
+            size: new google.maps.Size(20, 20),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(15, 15)
+          },
+          map: map
+        });
+        var marker2 = new google.maps.Marker({
+          position: {lat: 40.7039915, lng: -74.0132804},
+          icon: {
+            url: "../images/burger-outline-filled.png",
+            size: new google.maps.Size(20, 20),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(0, 32)
+          },
           map: map
         });
       }
