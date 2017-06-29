@@ -36,6 +36,11 @@ body{
     border-color: #D62F01;
 }
 
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
+    color: #FFF;
+    font-weight: bold;
+}
+
 .navbar-nav li a {
     color: #FFFFFF;
 }
@@ -80,11 +85,18 @@ body{
     background-color: #f2f2f2;
 }
 
+.welcome h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+
 .welcome {
     position: absolute;
-    top: 40%;
+    top: 30%;
     width: 60%;
-    margin-left: 20%
+    margin-left: 20%;
+    /*font-weight: bold;*/
+    font-size: 26px;
 }
 
 .orange {
@@ -140,7 +152,7 @@ img {
     background-color: #FFFFFF;
 }
 
-p {
+p, h1{
     color: white;
     font-family: 'Rubik', sans-serif;
 }

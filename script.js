@@ -10,8 +10,8 @@ $(document).ready(function() {
  
   $(".socialIcon").hover(function(){
     $(this).find('img').animate({
-        height: "25px",
-        width: "25px"
+        height: "35px",
+        width: "35px"
     });
   }, function(){
     $(this).find('img').animate({
